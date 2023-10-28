@@ -8,6 +8,7 @@ def add_todo():
     todos.append(todo + "\n")
     write_todos(todos)
 
+st.set_page_config(layout="wide")
 
 st.title("My TODO APP")
 st.header("This App will help you to manage your day task")
